@@ -17,7 +17,7 @@
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/sample" />
 
-  <!-- 工具项目 -->
+
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
@@ -30,7 +30,6 @@
   <remove-project name="platform/prebuilts/ninja/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
-  <!-- 已替代项目 -->
   <remove-project name="LineageOS/android_external_freetype" />
 
 </manifest>

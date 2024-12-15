@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="swallow"
+           fetch="https://github.com/SwallowOS"
+           revision="swallow-7.1" />
 
-
+  <project path="swallow/README" name="README" remote="swallow" revision="main"/>
+  <project path="external/freetype" name="android_external_freetype" remote="swallow"/>
 </manifest>
